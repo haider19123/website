@@ -1,0 +1,43 @@
+
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px;
+    padding: 3px 68px;
+
+}
+#home h1{
+    font-size: 42px;
+}
+.our{
+    padding: 10px;
+}
+.h-primary{
+    padding: 0px;
+}
+#home::before{
+    font-size: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+}
+.btn{
+    font-size: 16px;
+    padding: 10px;
+}
+#clients{
+overflow: hidden;
+}
+

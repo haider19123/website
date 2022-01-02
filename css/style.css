@@ -1,0 +1,254 @@
+/* CSS Reset */
+*{
+   margin: 0;
+   padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* CSS Variable */
+    /* navigation Bar */
+    #navbar{
+        position:sticky;
+        display:flex;
+        align-items: center;
+        opacity: 0.6s
+   }
+   /* navigation Bar Logo and image */
+   #logo img {
+       height: 70px;
+       color:red;
+       margin: 0px 1px;
+   }
+   /* navigation Bar List Styling */
+     #navbar ul{
+     display: flex;}
+#navbar::before{
+           content: "";
+           background-color:white;
+           position:absolute;
+           height: 100%;
+           width: 100%;
+           z-index: -1;
+           opacity: 0.6;
+           position:absolute;
+}
+#navbar ul li a:hover{
+    color:black;
+    background:white;
+}
+#navbar ul li  a {
+    color:black;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhaina 2', cursive;
+    opacity: 0.6s;
+}
+/* Home Section */
+#home {
+        display: flex;
+        flex-direction: column;
+        padding: 3px   200px;
+        justify-content: center;
+        height: 360px;
+        align-items: center;
+        font-family: 'Baloo Bhai 2', cursive;
+}
+#home h1{
+    font-size: 60px;
+    font-family: 'Bree Serif',serif;
+}
+.center{
+    align-items: center;
+    text-align: center;
+}
+#home::before{
+    content: "";
+    background: url(../7) no-repeat center center/cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.98;
+    top:0px;
+    left:0px;
+}
+/* services Section */
+#services{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: -3px;
+    margin: -13px;
+    align-items: center;
+    background-color:darkgray;
+    border-radius: 14px;
+    justify-items: center;
+    text-align: center;
+}
+#services .box img{
+    height:  150px;
+    margin:  auto;
+    display: block;
+
+}
+/* Client Section */
+#Clients-Section{
+    font-size: 344px;
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background:url(../98);
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 100px;
+    display: flex;
+
+}
+.client-item{
+    display: flex;
+}
+
+.img{
+    height: 124px;
+    align-items: center;
+    justify-content: center;
+    inline-size: auto;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+}
+.skype{
+    height: 124px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.mic{
+    height: 124px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.fb{
+    height: 124px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+#clients{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 54px;
+
+}
+
+#Clients img{
+    height: 88px;
+    display: flex;
+    background-color: darkred;
+    align-items: center;
+    justify-content: center;
+}
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(../76) no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif',serif;
+
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 19px;
+}
+.btn{
+    padding: 6px 12px;
+    border: 2px solid;
+    background:brown;
+    border-color: white;
+    margin: 17px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.h-secondary{
+      font-size: 2.8rem;
+      padding: 12px;
+}
+.our{
+    align-items: center;
+    color: blueviolet;
+    padding: 50px;
+    font-size: 3.8rem;
+    margin: auto;
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+.h-primary{
+    text-align: center;
+    color:
+}
+.apple{
+    color:blue;
+}
